@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/AJGuitar/static/css/main.fa66867f.chunk.css",
+    "main.js": "/AJGuitar/static/js/main.54898ed1.chunk.js",
+    "main.js.map": "/AJGuitar/static/js/main.54898ed1.chunk.js.map",
+    "runtime-main.js": "/AJGuitar/static/js/runtime-main.0e065862.js",
+    "runtime-main.js.map": "/AJGuitar/static/js/runtime-main.0e065862.js.map",
+    "static/css/2.fc5c5e36.chunk.css": "/AJGuitar/static/css/2.fc5c5e36.chunk.css",
+    "static/js/2.4ecbb6a7.chunk.js": "/AJGuitar/static/js/2.4ecbb6a7.chunk.js",
+    "static/js/2.4ecbb6a7.chunk.js.map": "/AJGuitar/static/js/2.4ecbb6a7.chunk.js.map",
+    "index.html": "/AJGuitar/index.html",
+    "precache-manifest.57a248a42685d4f65a1c3c076622959e.js": "/AJGuitar/precache-manifest.57a248a42685d4f65a1c3c076622959e.js",
+    "service-worker.js": "/AJGuitar/service-worker.js",
+    "static/css/2.fc5c5e36.chunk.css.map": "/AJGuitar/static/css/2.fc5c5e36.chunk.css.map",
+    "static/css/main.fa66867f.chunk.css.map": "/AJGuitar/static/css/main.fa66867f.chunk.css.map",
+    "static/js/2.4ecbb6a7.chunk.js.LICENSE.txt": "/AJGuitar/static/js/2.4ecbb6a7.chunk.js.LICENSE.txt",
+    "static/media/carousel1.jpg": "/AJGuitar/static/media/carousel1.88db6409.jpg",
+    "static/media/carousel2.jpg": "/AJGuitar/static/media/carousel2.d5d5a607.jpg",
+    "static/media/carousel3.jpg": "/AJGuitar/static/media/carousel3.4ae43c9c.jpg",
+    "static/media/carousel4.jpg": "/AJGuitar/static/media/carousel4.eab849e3.jpg",
+    "static/media/carousel5.jpg": "/AJGuitar/static/media/carousel5.200b607f.jpg",
+    "static/media/carousel6.jpg": "/AJGuitar/static/media/carousel6.4dcae684.jpg",
+    "static/media/logo.png": "/AJGuitar/static/media/logo.f8ca03fa.png",
+    "static/media/money.gif": "/AJGuitar/static/media/money.51d30871.gif",
+    "static/media/review 1.png": "/AJGuitar/static/media/review 1.7daec5f3.png",
+    "static/media/review 2.png": "/AJGuitar/static/media/review 2.242ff156.png",
+    "static/media/speed.gif": "/AJGuitar/static/media/speed.a9ec1ee0.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e065862.js",
+    "static/css/2.fc5c5e36.chunk.css",
+    "static/js/2.4ecbb6a7.chunk.js",
+    "static/css/main.fa66867f.chunk.css",
+    "static/js/main.54898ed1.chunk.js"
+  ]
+}
