@@ -1,38 +1,108 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+::-webkit-scrollbar{
+  display: none;
+ 
+}
+body{
+  font-family: 'Roboto', sans-serif;
+ 
+}
+.App{
+  padding-bottom: 70px !important;
+
+}
+.App h3{
+  color: white;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand{
+  font-family: 'Alata', sans-serif;
+  font-weight: bold;
+  text-align-last: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navStyle {
+ box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.featureSection{
+  color: black;
+  border-bottom: black 5px solid;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin: 0 !important;
+  background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+  
+}
+
+.featureSection h1{
+  font-size: 35px;
+}
+
+
+.jumbotron{
+  /* background-color: #293241 !important; */
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png"), linear-gradient(to left,#0052D4,#6FB1FC) ;
   color: white;
+  text-shadow: black 2.5px 1px 3px;
+  height: 700px !important;
+  border-bottom: black 4px solid;
+  margin-bottom: 0 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.jumbotron h1{
+ font-size: 45px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.jumbotronTexts{
+  margin-top: 50px;
+}
+
+.showcaseSection{
+  margin: 0 !important;
+  padding: 20px 0;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png"), linear-gradient(to right,#fff,#076585, #0052D4) ;
+}
+
+.showcaseSection h3{
+  text-shadow: black 2px 2px 2px;
+  font-size: 40px;
+}
+
+.feedbackSection{
+  color: black;
+  padding: 30px 0 50px;
+  margin-bottom: 20px;
+  background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+  border-bottom: black 5px solid;
+  border-top: black 5px solid;
+}
+
+@media only screen and (max-width: 925px) {
+  .jumbotron{
+    height: auto !important;
   }
-  to {
-    transform: rotate(360deg);
+  .jumbotronTexts{
+    margin-top: 0;
+  }
+  .jumbotron h1{
+  font-size: 35px;
+  }
+  button{
+    margin-bottom: 10px !important;
+  }
+  .galleryBtn{
+    margin-top: 10px;
   }
 }
