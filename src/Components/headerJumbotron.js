@@ -67,23 +67,21 @@ function HeaderJumbotron() {
                 <br />
               </Col>
               <Col xs={12} lg="4">
-                <Scroll animateIn="fadeIn" delay={2000}>
-                  <Carousel>
-                    {Images.map((Pictures) => {
-                      return (
-                        <Carousel.Item>
-                          <img
-                            className="d-block w-100"
-                            return
-                            src={Pictures}
-                            alt="First slide"
-                            height="550px"
-                          />
-                        </Carousel.Item>
-                      );
-                    })}
-                  </Carousel>
-                </Scroll>
+                <Carousel>
+                  {Images.map((Pictures) => {
+                    return (
+                      <Carousel.Item>
+                        <img
+                          className="d-block w-100"
+                          return
+                          src={Pictures}
+                          alt="First slide"
+                          height="550px"
+                        />
+                      </Carousel.Item>
+                    );
+                  })}
+                </Carousel>
               </Col>
             </Row>
           </Container>

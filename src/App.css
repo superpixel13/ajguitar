@@ -53,7 +53,16 @@ body{
 
 .jumbotron{
   /* background-color: #293241 !important; */
-  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png"), linear-gradient(to left,#0052D4,#6FB1FC) ;
+  /* background-image: url("./AJ\ Pictures/background-1.jpg"), linear-gradient(to left,#0052D4,#6FB1FC) ; */
+  background: linear-gradient(
+    to left,
+    #0451ce3a,
+    #6fb1fcbb
+  ),
+  url("./AJ\ Pictures/background-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   text-shadow: black 2.5px 1px 3px;
   height: 700px !important;
