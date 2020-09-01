@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7bd12bb9ed8bed3b343d9222c829fb05",
+    "revision": "cdf3375f86884f11e7485835ad1e07e4",
     "url": "/AJGuitar/index.html"
   },
   {
-    "revision": "bca1751113a860fdbecf",
+    "revision": "07996b1d111958670231",
     "url": "/AJGuitar/static/css/2.fc5c5e36.chunk.css"
   },
   {
-    "revision": "a1f9f5a2e1dfe2488c61",
-    "url": "/AJGuitar/static/css/main.d179528a.chunk.css"
+    "revision": "27b3411b2f0abca532e0",
+    "url": "/AJGuitar/static/css/main.9f82c5d7.chunk.css"
   },
   {
-    "revision": "bca1751113a860fdbecf",
-    "url": "/AJGuitar/static/js/2.d006bf19.chunk.js"
+    "revision": "07996b1d111958670231",
+    "url": "/AJGuitar/static/js/2.64a9586a.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/AJGuitar/static/js/2.d006bf19.chunk.js.LICENSE.txt"
+    "url": "/AJGuitar/static/js/2.64a9586a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a1f9f5a2e1dfe2488c61",
-    "url": "/AJGuitar/static/js/main.2e8e6edd.chunk.js"
+    "revision": "27b3411b2f0abca532e0",
+    "url": "/AJGuitar/static/js/main.14a46309.chunk.js"
   },
   {
     "revision": "52b3fc6c41b63450a6f4",

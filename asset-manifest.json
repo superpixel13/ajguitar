@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/AJGuitar/static/css/main.d179528a.chunk.css",
-    "main.js": "/AJGuitar/static/js/main.2e8e6edd.chunk.js",
-    "main.js.map": "/AJGuitar/static/js/main.2e8e6edd.chunk.js.map",
+    "main.css": "/AJGuitar/static/css/main.9f82c5d7.chunk.css",
+    "main.js": "/AJGuitar/static/js/main.14a46309.chunk.js",
+    "main.js.map": "/AJGuitar/static/js/main.14a46309.chunk.js.map",
     "runtime-main.js": "/AJGuitar/static/js/runtime-main.0e065862.js",
     "runtime-main.js.map": "/AJGuitar/static/js/runtime-main.0e065862.js.map",
     "static/css/2.fc5c5e36.chunk.css": "/AJGuitar/static/css/2.fc5c5e36.chunk.css",
-    "static/js/2.d006bf19.chunk.js": "/AJGuitar/static/js/2.d006bf19.chunk.js",
-    "static/js/2.d006bf19.chunk.js.map": "/AJGuitar/static/js/2.d006bf19.chunk.js.map",
+    "static/js/2.64a9586a.chunk.js": "/AJGuitar/static/js/2.64a9586a.chunk.js",
+    "static/js/2.64a9586a.chunk.js.map": "/AJGuitar/static/js/2.64a9586a.chunk.js.map",
     "index.html": "/AJGuitar/index.html",
-    "precache-manifest.560506c55e5c32c1eb9e2525888c8c52.js": "/AJGuitar/precache-manifest.560506c55e5c32c1eb9e2525888c8c52.js",
+    "precache-manifest.ebae6bd8fcf4411988f26a116151db8c.js": "/AJGuitar/precache-manifest.ebae6bd8fcf4411988f26a116151db8c.js",
     "service-worker.js": "/AJGuitar/service-worker.js",
     "static/css/2.fc5c5e36.chunk.css.map": "/AJGuitar/static/css/2.fc5c5e36.chunk.css.map",
-    "static/css/main.d179528a.chunk.css.map": "/AJGuitar/static/css/main.d179528a.chunk.css.map",
-    "static/js/2.d006bf19.chunk.js.LICENSE.txt": "/AJGuitar/static/js/2.d006bf19.chunk.js.LICENSE.txt",
+    "static/css/main.9f82c5d7.chunk.css.map": "/AJGuitar/static/css/main.9f82c5d7.chunk.css.map",
+    "static/js/2.64a9586a.chunk.js.LICENSE.txt": "/AJGuitar/static/js/2.64a9586a.chunk.js.LICENSE.txt",
     "static/media/App.css": "/AJGuitar/static/media/background-1.97abed1f.jpg",
     "static/media/carousel1.jpg": "/AJGuitar/static/media/carousel1.88db6409.jpg",
     "static/media/carousel2.jpg": "/AJGuitar/static/media/carousel2.d5d5a607.jpg",
@@ -33,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.0e065862.js",
     "static/css/2.fc5c5e36.chunk.css",
-    "static/js/2.d006bf19.chunk.js",
-    "static/css/main.d179528a.chunk.css",
-    "static/js/main.2e8e6edd.chunk.js"
+    "static/js/2.64a9586a.chunk.js",
+    "static/css/main.9f82c5d7.chunk.css",
+    "static/js/main.14a46309.chunk.js"
   ]
 }
