@@ -13,9 +13,9 @@ export default function FeedbackSection () {
             <Col xs={12} lg="6">
               <h1 style={{ textAlign: "center" }}>Feedbacks</h1>
               <Carousel>
-                {[r1, r2, r3, r4, r5].map((Items) => {
+                {[r1, r2, r3, r4, r5].map((Items,index) => {
                   return (
-                    <Carousel.Item>
+                    <Carousel.Item key={index}>
                       <img
                         className="d-block w-100"
                         src={Items}

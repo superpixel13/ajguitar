@@ -56,8 +56,8 @@ body{
   /* background-image: url("./AJ\ Pictures/background-1.jpg"), linear-gradient(to left,#0052D4,#6FB1FC) ; */
   background: linear-gradient(
     to left,
-    #0451ce3a,
-    #6fb1fcbb
+    rgba(26, 179, 184, 0.384),
+    rgba(0, 0, 0, 0.692)
   ),
   url("./AJ\ Pictures/background-1.jpg");
   background-position: center;

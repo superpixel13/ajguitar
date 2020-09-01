@@ -29,9 +29,9 @@ export default function ListItem(props) {
             <Tab.Content>
               <Tab.Pane eventKey="first">
                 <ListGroup horizontal={"lg"}>
-                  {FullPackage.map((items) => {
+                  {FullPackage.map((items,index) => {
                     return (
-                      <ListGroup.Item variant="info">{items}</ListGroup.Item>
+                      <ListGroup.Item key={index} variant="info">{items}</ListGroup.Item>
                     );
                   })}
                 </ListGroup>
@@ -54,9 +54,9 @@ export default function ListItem(props) {
                   {name:'Acoustic Pick Up Installation',
                   description:'500.00 PHP'}
                   ].map((items,index) => {
-                    return (
-                      <div>
-                        <ListGroup.Item  variant="info">
+                    return  (
+                      <div key={index}>
+                        <ListGroup.Item  variant="info" >
                           {items.name}
                           <br />
                           <CustomizedDialogs description={items.description} />

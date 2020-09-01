@@ -45,7 +45,7 @@ function HeaderJumbotron() {
                     Customer's Feedbacks.
                   </p>
                 </Scroll>
-                <Scroll animateIn="fadeIn" delay={1500}>
+                
                   <div>
                     <Button variant="info" href="#feedbackSec">
                       Feedbacks
@@ -63,17 +63,18 @@ function HeaderJumbotron() {
                       onClose={() => setIsOpen(false)}
                     />
                   </div>
-                </Scroll>
+            
                 <br />
               </Col>
               <Col xs={12} lg="4">
                 <Carousel>
-                  {Images.map((Pictures) => {
+                  {Images.map((Pictures,index) => {
                     return (
-                      <Carousel.Item>
+                      
+                      <Carousel.Item key={index}>
                         <img
+                        
                           className="d-block w-100"
-                          return
                           src={Pictures}
                           alt="First slide"
                           height="550px"
