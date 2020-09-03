@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/AJGuitar/static/css/main.9f82c5d7.chunk.css",
-    "main.js": "/AJGuitar/static/js/main.14a46309.chunk.js",
-    "main.js.map": "/AJGuitar/static/js/main.14a46309.chunk.js.map",
+    "main.css": "/AJGuitar/static/css/main.03f5a0c4.chunk.css",
+    "main.js": "/AJGuitar/static/js/main.19606df9.chunk.js",
+    "main.js.map": "/AJGuitar/static/js/main.19606df9.chunk.js.map",
     "runtime-main.js": "/AJGuitar/static/js/runtime-main.0e065862.js",
     "runtime-main.js.map": "/AJGuitar/static/js/runtime-main.0e065862.js.map",
     "static/css/2.fc5c5e36.chunk.css": "/AJGuitar/static/css/2.fc5c5e36.chunk.css",
-    "static/js/2.64a9586a.chunk.js": "/AJGuitar/static/js/2.64a9586a.chunk.js",
-    "static/js/2.64a9586a.chunk.js.map": "/AJGuitar/static/js/2.64a9586a.chunk.js.map",
+    "static/js/2.51362d4d.chunk.js": "/AJGuitar/static/js/2.51362d4d.chunk.js",
+    "static/js/2.51362d4d.chunk.js.map": "/AJGuitar/static/js/2.51362d4d.chunk.js.map",
     "index.html": "/AJGuitar/index.html",
-    "precache-manifest.ebae6bd8fcf4411988f26a116151db8c.js": "/AJGuitar/precache-manifest.ebae6bd8fcf4411988f26a116151db8c.js",
+    "precache-manifest.1baebd5554ac48284c3254c8cbb034c1.js": "/AJGuitar/precache-manifest.1baebd5554ac48284c3254c8cbb034c1.js",
     "service-worker.js": "/AJGuitar/service-worker.js",
     "static/css/2.fc5c5e36.chunk.css.map": "/AJGuitar/static/css/2.fc5c5e36.chunk.css.map",
-    "static/css/main.9f82c5d7.chunk.css.map": "/AJGuitar/static/css/main.9f82c5d7.chunk.css.map",
-    "static/js/2.64a9586a.chunk.js.LICENSE.txt": "/AJGuitar/static/js/2.64a9586a.chunk.js.LICENSE.txt",
+    "static/css/main.03f5a0c4.chunk.css.map": "/AJGuitar/static/css/main.03f5a0c4.chunk.css.map",
+    "static/js/2.51362d4d.chunk.js.LICENSE.txt": "/AJGuitar/static/js/2.51362d4d.chunk.js.LICENSE.txt",
     "static/media/App.css": "/AJGuitar/static/media/background-1.97abed1f.jpg",
     "static/media/carousel1.jpg": "/AJGuitar/static/media/carousel1.88db6409.jpg",
     "static/media/carousel2.jpg": "/AJGuitar/static/media/carousel2.d5d5a607.jpg",
@@ -28,13 +28,13 @@
     "static/media/review 3.png": "/AJGuitar/static/media/review 3.f140c246.png",
     "static/media/review 4.png": "/AJGuitar/static/media/review 4.e31292e4.png",
     "static/media/review 5.png": "/AJGuitar/static/media/review 5.b7ffa3d9.png",
-    "static/media/speed.gif": "/AJGuitar/static/media/speed.a9ec1ee0.gif"
+    "static/media/time.gif": "/AJGuitar/static/media/time.6c04b91c.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.0e065862.js",
     "static/css/2.fc5c5e36.chunk.css",
-    "static/js/2.64a9586a.chunk.js",
-    "static/css/main.9f82c5d7.chunk.css",
-    "static/js/main.14a46309.chunk.js"
+    "static/js/2.51362d4d.chunk.js",
+    "static/css/main.03f5a0c4.chunk.css",
+    "static/js/main.19606df9.chunk.js"
   ]
 }
