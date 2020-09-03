@@ -46,14 +46,16 @@ function HeaderJumbotron() {
                   </p>
                 </Scroll>
 
-                <div>
-                  <Button variant="info" href="#feedbackSec">
+                <div >
+               
+                  <Button style={{marginRight:'5px'}} variant="info" href="#feedbackSec">
                     Feedbacks
                   </Button>{" "}
                   <Button
                     className="galleryBtn"
-                    variant="dark"
+                    variant="secondary"
                     onClick={() => setIsOpen(true)}
+                    style={{textShadow:'2px 2px 2px black'}}
                   >
                     Open Gallery
                   </Button>

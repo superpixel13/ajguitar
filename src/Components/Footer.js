@@ -5,15 +5,15 @@ export default function Footer () {
   const date = new Date();
   const year = date.getFullYear()
     return (
-      <div>
-        <Container bg="dark">
+      <div className='foot' >
+        <Container >
           <Row>
             <Col>
             <h1>Follow Us</h1>
             <SocialIcon url="https://www.facebook.com/AJGuitarSetUp" />
             </Col>
             <Col>
-            <h5 style={{marginTop:'20px', color:'black'}}>For more info about labor and parts kindly contact us to 09959877457</h5>
+            <h5 style={{marginTop:'20px'}}>For more info about labor and parts kindly contact us to 09959877457</h5>
             </Col>
           </Row>
           <h4 style={{textAlign:'center'}}>&copy; {year} by RJ Sarmiento </h4>
