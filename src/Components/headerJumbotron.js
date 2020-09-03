@@ -45,35 +45,32 @@ function HeaderJumbotron() {
                     Customer's Feedbacks.
                   </p>
                 </Scroll>
-                
-                  <div>
-                    <Button variant="info" href="#feedbackSec">
-                      Feedbacks
-                    </Button>{" "}
-                    <Button
-                      className="galleryBtn"
-                      variant="dark"
-                      onClick={() => setIsOpen(true)}
-                    >
-                      Open Gallery
-                    </Button>
-                    <ReactBnbGallery
-                      show={isOpen}
-                      photos={Images}
-                      onClose={() => setIsOpen(false)}
-                    />
-                  </div>
-            
+
+                <div>
+                  <Button variant="info" href="#feedbackSec">
+                    Feedbacks
+                  </Button>{" "}
+                  <Button
+                    className="galleryBtn"
+                    variant="dark"
+                    onClick={() => setIsOpen(true)}
+                  >
+                    Open Gallery
+                  </Button>
+                  <ReactBnbGallery
+                    show={isOpen}
+                    photos={Images}
+                    onClose={() => setIsOpen(false)}
+                  />
+                </div>
                 <br />
               </Col>
               <Col xs={12} lg="4">
                 <Carousel>
-                  {Images.map((Pictures,index) => {
+                  {Images.map((Pictures, index) => {
                     return (
-                      
                       <Carousel.Item key={index}>
                         <img
-                        
                           className="d-block w-100"
                           src={Pictures}
                           alt="First slide"

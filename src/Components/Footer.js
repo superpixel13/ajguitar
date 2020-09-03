@@ -2,6 +2,8 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
 export default function Footer () {
+  const date = new Date();
+  const year = date.getFullYear()
     return (
       <div>
         <Container bg="dark">
@@ -12,10 +14,9 @@ export default function Footer () {
             </Col>
             <Col>
             <h5 style={{marginTop:'20px', color:'black'}}>For more info about labor and parts kindly contact us to 09959877457</h5>
-            
             </Col>
           </Row>
-          <h4 style={{textAlign:'center'}}>Copyright By RJ Sarmiento</h4>
+          <h4 style={{textAlign:'center'}}>&copy; {year} by RJ Sarmiento </h4>
         </Container>
       </div>
     );

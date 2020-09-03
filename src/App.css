@@ -14,8 +14,8 @@
 }
 body{
   font-family: 'Roboto', sans-serif;
- 
 }
+
 .App{
   padding-bottom: 70px !important;
 
@@ -29,6 +29,11 @@ body{
   font-family: 'Alata', sans-serif;
   font-weight: bold;
   text-align-last: center;
+  display: flex !important;
+}
+
+.navbar-brand p{
+  margin-top: 15px;
 }
 
 .navStyle {
@@ -87,6 +92,10 @@ body{
 .showcaseSection h3{
   text-shadow: black 2px 2px 2px;
   font-size: 40px;
+}
+
+.list-group-item{
+  font-size: 18px;
 }
 
 .feedbackSection{

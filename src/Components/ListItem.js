@@ -17,10 +17,14 @@ export default function ListItem(props) {
           <Col sm={2}>
             <Nav variant="pills" className="flex-column ">
               <Nav.Item>
-                <Nav.Link eventKey="first">Full Package</Nav.Link>
+                <Nav.Link style={{ color: "white" }} eventKey="first">
+                  Full Package
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="second">Others</Nav.Link>
+                <Nav.Link style={{ color: "white" }} eventKey="second">
+                  Others
+                </Nav.Link>
               </Nav.Item>
             </Nav>
           </Col>
@@ -29,9 +33,15 @@ export default function ListItem(props) {
             <Tab.Content>
               <Tab.Pane eventKey="first">
                 <ListGroup horizontal={"lg"}>
-                  {FullPackage.map((items,index) => {
+                  {FullPackage.map((items, index) => {
                     return (
-                      <ListGroup.Item key={index} variant="info">{items}</ListGroup.Item>
+                      <ListGroup.Item
+                        style={{ color: "black" }}
+                        key={index}
+                        variant="primary"
+                      >
+                        {items}
+                      </ListGroup.Item>
                     );
                   })}
                 </ListGroup>
@@ -41,24 +51,30 @@ export default function ListItem(props) {
               <br />
               <Tab.Pane eventKey="second">
                 <ListGroup horizontal={"lg"}>
-                  {[{name:'Acoustic bridge Reglue',
-                  description:'1000.00 PHP'},
-                  {name:'Neck reglue',
-                  description:'1000.00 PHP - 2500.00 PHP'},
-                  {name:'Shielding',
-                  description:'200.00 PHP'},
-                  {name:'Refret',
-                  description:'1000.00 PHP'},
-                  {name:'General Wiring',
-                  description:'500.00 PHP'},
-                  {name:'Acoustic Pick Up Installation',
-                  description:'500.00 PHP'}
-                  ].map((items,index) => {
-                    return  (
+                  {[
+                    {
+                      name: "Acoustic bridge Reglue",
+                      description: "1000.00 PHP",
+                    },
+                    {
+                      name: "Neck reglue",
+                      description: "1000.00 PHP - 2500.00 PHP",
+                    },
+                    { name: "Shielding", description: "200.00 PHP" },
+                    { name: "Refret", description: "1000.00 PHP" },
+                    { name: "General Wiring", description: "500.00 PHP" },
+                    {
+                      name: "Acoustic Pick Up Installation",
+                      description: "500.00 PHP",
+                    },
+                  ].map((items, index) => {
+                    return (
                       <div key={index}>
-                        <ListGroup.Item  variant="info" >
+                        <ListGroup.Item
+                          style={{ color: "black", textAlign: "center" }}
+                          variant="primary"
+                        >
                           {items.name}
-                          <br />
                           <CustomizedDialogs description={items.description} />
                         </ListGroup.Item>
                       </div>
