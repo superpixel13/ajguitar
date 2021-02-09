@@ -1,14 +1,7 @@
-import React from 'react'
-import {
-  Col,
-  Tab,
-  Row,
-  Nav,
-  ListGroup
-
-} from "react-bootstrap";
-import CustomizedDialogs from './DialogBox'
-import FullPackage from '../Data/servicesData'
+import React from "react";
+import { Col, Tab, Row, Nav, ListGroup } from "react-bootstrap";
+import CustomizedDialogs from "./DialogBox";
+import FullPackage from "../Data/servicesData";
 export default function ListItem(props) {
   return (
     <div>
@@ -18,7 +11,7 @@ export default function ListItem(props) {
             <Nav variant="pills" className="flex-column ">
               <Nav.Item>
                 <Nav.Link style={{ color: "white" }} eventKey="first">
-                  Full Package
+                  Full Packages
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
